@@ -12,6 +12,7 @@
 		<input type= "text" name="patente">
 		<input type="submit" class="MiBotonUTNMenuInicio" name=	"accion" value ="Estacionar">
 		<input type="submit" class="MiBotonUTNMenuInicio" name=	"accion" value ="Salir">
+		<input type="submit" class="MiBotonUTNMenuInicio" name=	"accion" value ="Sacar">
 	</form>
 	</div>
 </body>
