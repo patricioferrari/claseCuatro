@@ -20,6 +20,17 @@
 	 		fclose($miArchivo);
 	 	}
 
+	 	public static function Leer()
+	 	{
+	 		$miArchivo =fopen("estacionados.txt", "r");
+	 		//leo renglon por renglon
+	 		while (!feof($miArchivo))
+	 		{
+	 			$renglon = fgets($miArchivo);
+	 			echo "<br> $renglon";
+	 		}
+	 	}
+
 	 	
 	 } 
  ?>
